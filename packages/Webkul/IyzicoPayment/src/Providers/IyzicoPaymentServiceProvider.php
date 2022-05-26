@@ -13,7 +13,7 @@ class IyzicoPaymentServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__ . '/../Http/routes.php'; $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'iyzico');
+        include __DIR__ . '/../Http/Routes.php'; $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'iyzico');
     }
 
     /**
